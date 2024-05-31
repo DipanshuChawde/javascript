@@ -69,3 +69,6 @@ sbi.loan()
 // encapsulation or privacy --->
 // lexical scope
 // closures
+
+// let wb=new WorldBank()
+// wb.save()

@@ -227,3 +227,14 @@ let stmt=['my','name','is','dipanshu']
 let str=stmt.join(' ')
 console.log(str)
 
+//-----------------------------------
+
+console.log()
+console.log("some() returns true if condition satisfy for at least one element otherwise false")    
+let arrr=[10,20,30,40,50]
+let q=arrr.some(function(el,index,arr){
+    //return el > 40 //true
+    console.log(arr)
+    return el>60 //false
+})
+console.log(q) 

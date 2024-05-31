@@ -82,7 +82,7 @@ console.log(q1)
 
 console.log()
 console.log("push method add element at last and returns new length")
-arr1=["apple","banana","mango"]
+let arr1=["apple","banana","mango"]
 console.log(arr1.length) //3
 q1=arr1.push("grapes")
 console.log(q1) //4
@@ -92,7 +92,7 @@ console.log(arr1) // [ 'apple', 'banana', 'mango', 'grapes' ]
 
 console.log()
 console.log("unshift method add element at first and returns new length")
-arr2=["nagpur","amravati","akola"]
+let arr2=["nagpur","amravati","akola"]
 console.log(arr2.length) // 3
 q2=arr2.unshift("pune")
 console.log(q2) // 4

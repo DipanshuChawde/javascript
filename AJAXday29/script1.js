@@ -27,7 +27,7 @@
 
 
 //program3 
-//async (Java script is asyncronus)
+//sync (Java script is syncronus)
 //to make java script code asyncronous use setTimeout function
 
 // function getInfo(){
