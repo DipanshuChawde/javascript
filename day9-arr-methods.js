@@ -1,6 +1,6 @@
 //data type of array is object
 
-// push(arg), unshift(arg),pop(), shift(), includes(arg), indexOf(arg),at(arg), reverse(),join(arg),concat(arg), flat()
+// push(arg), unshift(arg),pop(), shift(), includes(arg), indexOf(arg-el),at(arg-index), reverse(),join(arg),concat(arg), flat()
 
 
 //1. push() 

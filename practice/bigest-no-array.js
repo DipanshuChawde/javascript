@@ -1,4 +1,4 @@
-arr=[3,2,6,1,2,8]
+let arr=[3,2,6,1,2,8]
 let temp=0
 for(i=0;i<arr.length;i++){
         temp=0

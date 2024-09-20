@@ -2,7 +2,20 @@
 // Promise.allSettled()
 // Promise.race()
 // Promise.any()
+//promise.all()
+//will execute promises till it get first reject ... 
+//after getting first reject it will through shortcircut
 
+//promise.race()
+//it will race betweenthe promises and returns first executed promise
+
+//promise.any()
+//it will exectue till it get first resolve 
+
+//promise.allsettled()
+//it eill execute all and return whatever is result in array..
+//if resolve return output ..if reject return reason 
+//-------------------------------------------------------------------------
 // async function promiseAll(){
 //     let proAll= await Promise.all([
 //         Promise.resolve('resolve1'),
@@ -14,6 +27,22 @@
 // }
 
 // promiseAll() //will give error
+//-----------------solution--------------------------
+async function promiseAll(){
+    try {
+        let proAll = await Promise.all([
+            Promise.resolve('resolve1'),
+            Promise.resolve('resolve2'),
+            Promise.reject('reject1'), // This promise will still reject
+            Promise.resolve('resolve4')
+        ]);
+        console.log(proAll); // This won't be reached because of the rejection
+    } catch (error) {
+        console.error('Error:', error); // This will log 'Error: reject1'
+    }
+}
+
+//promiseAll();
 
 //-------------------------------------------------------------------------------
 

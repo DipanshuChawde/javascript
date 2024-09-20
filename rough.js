@@ -79,8 +79,11 @@
 
 
 
-let strr = "my name is dipanshu chawde"
+// let strr = "my name is dipanshu chawde"
 
-let set1=new Set(strr)
+// let set1=new Set(strr)
 
-console.log(Array.from(set1).join(''))
+// console.log(Array.from(set1).join(''))
+
+console.log(!(7 === '7'))
+console.log(!(7 == '7'))

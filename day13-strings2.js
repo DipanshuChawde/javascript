@@ -100,9 +100,9 @@ console.log(city.slice(-4,-4)) //""
 console.log()
 console.log("split()")
 
-let fn="dipanshu"
-let a=fn.split("") 
-console.log(a) // [ 'd', 'i', 'p', 'a', 'n', 's','h', 'u' ]
+let fn="dipanshu nitin chawde"
+let a=fn.split(" ") 
+console.log(a) // [ 'd', 'i', 'p', 'a', 'n', 's','h', 'u' ] ["dipanshu", "nitin" ,"chawde"]
 let b=fn.split("a")
 console.log(b)  //[ 'dip', 'nshu' ]
 
@@ -113,7 +113,7 @@ console.log(fn1.split(" ")) //[ 'dipanshu', 'nitin', 'chawde' ]
 
 //concat()
 str1="dipanshu"
-str2="chawde"
+let str2="chawde"
 let fstr=str1.concat(" ").concat(str2)
 console.log(fstr)   //dipanshu chawde
 

@@ -81,6 +81,7 @@ let q2=arr.every(function(el, index,arr){
 console.log(q2)               //false
 
 //find()
+//arr=[10,20,30,40,50]
 console.log()
 console.log("find()")
 let q3=arr.find(function(el,index,arr){
@@ -135,11 +136,11 @@ let sl4=citiess.slice(-5,-2)
 console.log(sl4)                        // [ 'mumbai', 'banglore', 'chennai' ]
 console.log(citiess.slice(-5,4))
 console.log()
-console.log(citiess.slice(-5,-1))
+console.log(citiess.slice(-5,-1))      //[ 'mumbai', 'banglore', 'chennai' ]
 console.log()
-console.log(citiess.slice(-1,-5))
+console.log(citiess.slice(-1,-5))      //[]
 console.log()
-console.log(citiess.slice(-2))
+console.log(citiess.slice(-2))          //[ 'kolkata', 'mysore' ]
 
 
 console.log()

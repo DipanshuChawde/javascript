@@ -96,7 +96,7 @@
 // }
 // )
 
-// //syntax---- pro.then(function(str-resolve){ }, function(str-rej){ })
+// //syntax---- pro.then(function(str-resolve){ }, function(str-reject){ })
 // //-------------------------------------------------------------------------------------
 
 // with catch block

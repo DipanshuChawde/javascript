@@ -5,7 +5,7 @@
 
 
 //map(function(el,index,arr)
-            //action => performs calculation specified in function function (runction is recursive finction call till element in array) 
+            //action => performs calculation specified in function function (runction is recursive function call till element in array) 
             //return=> array
 
 
@@ -64,7 +64,7 @@ for(let i =0;i<year.length;i++){
 }
 console.log(ages)
 
-//map()
+//map() -used to perform some action on each array returns new array of same length
 
 //map(function(el,index,arr)
             //action => performs calculation specified in function function (runction is recursive finction call till element in array) 
@@ -76,7 +76,10 @@ console.log()
 console.log("map() program to create new array of age after giving  array of birth year")
 
 q1=year.map(function(el,index,arr){
-    return 2023-el 
+    return 2023-el //[ 40, 47, 15, 6 ] age return
+ 
+    // if(el>2000){
+    //     return 2023-el } //[ undefined, undefined, 15, 6 ]
 })
 console.log(q1)
 
@@ -163,7 +166,7 @@ console.log(total)
 
 console.log()
 console.log("using reduce addition of all element  ") 
-
+//reduce(()=>{...},0)
 let addition=arr4.reduce(function(acc,el,index,arr){
     return acc+el
 },0) //defined acc as 0 by default it is always 0

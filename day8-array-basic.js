@@ -39,8 +39,8 @@ console.log(a.length-1)
 //program 1 to print all elements of array
 
 console.log()
-//      0          1          2        3
-arr=["dipanshu", "nitin", "tanish", "neel"]
+//         0          1          2        3
+let arr=["dipanshu", "nitin", "tanish", "neel"]
 for(i=0;i<arr.length;i++){
     console.log(i)
 //console.log(i , arr[i])
