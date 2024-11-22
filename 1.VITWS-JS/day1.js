@@ -100,3 +100,13 @@ function Calculator2(x,y){
 //let [ad,su,mul,dv]= Calculator2(20,10)
 let res= Calculator2(20,10)
 console.log(res.a)
+
+//---------------conditional operators-------------------
+
+//The logical operators AND (&&), OR (||), and NOT (!) are fundamental in JavaScript.
+// And all true then o/p is true otherwise false
+// OR if any of input is true then true false only if all false
+// NOT if true then false ,if false then true
+
+
+
