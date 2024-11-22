@@ -102,9 +102,9 @@ console.log("split()")
 
 let fn="dipanshu nitin chawde"
 let a=fn.split(" ") 
-console.log(a) // [ 'd', 'i', 'p', 'a', 'n', 's','h', 'u' ] ["dipanshu", "nitin" ,"chawde"]
+console.log(a) //["dipanshu", "nitin" ,"chawde"]
 let b=fn.split("a")
-console.log(b)  //[ 'dip', 'nshu' ]
+console.log(b)  //[ 'dip', 'nshu nitin ch', 'wde' ]
 
 
 let fn1="dipanshu nitin chawde"
